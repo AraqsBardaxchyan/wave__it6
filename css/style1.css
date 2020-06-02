@@ -1,0 +1,19 @@
+.header__content,.header__logo,.nvbar__menu,.right__section___box a,.left__section,
+.main,.section2__box__part,.footer__content,.footer__menu__part,.kontakti{
+	display: flex;
+}
+
+.header__logo h1,.dropdown-content a,.right__section__menu,.box1__text1,.box1__text2,.box1__text3,
+.left__section__tex h4,.left__section__tex p,.left__section__text2 h4,.section2__content h4,
+.section2__box1__text,.footer__menu h3,.footer__menu__link li a,.adres p,.adres span,.kontakti p,.kontakti ul li a,.button1__footer,.button2__footer{
+	font-family: "Montserrat", sans-serif;
+}
+
+
+@media all and (max-width: 767px){
+
+.right__section___box a,.left__section,
+.main,.section2__box__part,.kontakti{
+	flex-direction: column;
+
+}
